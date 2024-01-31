@@ -1,4 +1,3 @@
-
 <body>
 <h1><p class="countdown">Voting</p></h1>
 <div class="inner-content">
@@ -49,7 +48,7 @@ setInterval(function () {
 	if(time == -1 && votes >= 24)
 	{
 		votes = 1;
-		time = 60;
+		time = 10;
 		return;
 	}
 	
